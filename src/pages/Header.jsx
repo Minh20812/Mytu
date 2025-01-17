@@ -33,23 +33,21 @@ const Header = () => {
         </SheetTrigger>
         <SheetContent
           side="bottom"
-          className="w-full max-sm:pt-16 h-screen opacity-75 flex flex-col sm:justify-between max-sm:overflow-y-auto"
+          className="w-full h-screen opacity-75 flex flex-col sm:justify-between max-sm:overflow-y-auto"
         >
-          <SheetHeader>
-            <div className=" flex justify-between">
-              <SheetClose asChild>
-                <div></div>
-              </SheetClose>
-              <SheetClose asChild>
-                <button className="h-12 w-12 rounded-xl text-white hover:bg-gray-800 justify-center items-center flex">
-                  <X className="h-6 w-6" />
-                </button>
-              </SheetClose>
-              <SheetTitle className="sr-only text-white">
-                Navigation Menu
-              </SheetTitle>
-            </div>
-          </SheetHeader>
+          <div className=" flex justify-between">
+            <SheetClose asChild>
+              <div></div>
+            </SheetClose>
+            <SheetClose asChild>
+              <button className="h-12 w-12 rounded-xl text-white hover:bg-gray-800 justify-center items-center flex">
+                <X className="h-6 w-6" />
+              </button>
+            </SheetClose>
+            <SheetTitle className="sr-only text-white">
+              Navigation Menu
+            </SheetTitle>
+          </div>
 
           <div className=" flex max-sm:flex-col justify-center items-center max-sm:min-h-screen gap-8 font-playwrite">
             <SheetClose asChild>
