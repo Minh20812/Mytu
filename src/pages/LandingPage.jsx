@@ -27,14 +27,14 @@ const LandingPage = () => {
                 <img
                   src="/images/1hong.png"
                   alt="example"
-                  className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px]"
+                  className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] -motion-translate-y-in-100"
                 />
                 <div className=" flex justify-between flex-col">
                   <div></div>
                   <img
                     src="/images/4mau.png"
                     alt="example"
-                    className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px]"
+                    className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px] motion-translate-x-in-100"
                   />
                 </div>
               </div>
@@ -43,12 +43,12 @@ const LandingPage = () => {
                 <img
                   src="https://mir-s3-cdn-cf.behance.net/project_modules/2800/b704fa213992079.67508e54115b8.png"
                   alt=""
-                  className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px]"
+                  className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px] -motion-translate-x-in-100"
                 />
                 <img
                   src="/images/1vang.png"
                   alt=""
-                  className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px]"
+                  className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] motion-translate-y-in-100"
                 />
               </div>
             </div>
