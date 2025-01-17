@@ -35,13 +35,13 @@ const Header = () => {
           side="bottom"
           className="w-full h-screen opacity-75 flex flex-col sm:justify-between max-sm:overflow-y-auto"
         >
-          <div className=" flex justify-between">
+          <div className=" flex justify-between max-sm:fixed max-sm:top-0 max-sm:right-0">
             <SheetClose asChild>
               <div></div>
             </SheetClose>
             <SheetClose asChild>
               <button className="h-12 w-12 rounded-xl text-white hover:bg-gray-800 justify-center items-center flex">
-                <X className="h-6 w-6" />
+                <X className="h-10 w-10" />
               </button>
             </SheetClose>
             <SheetTitle className="sr-only text-white">
