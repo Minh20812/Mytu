@@ -16,7 +16,9 @@ const Header = () => {
     <header className="px-4 lg:px-6 h-16 fixed top-0 w-full flex items-center justify-between bg-transparent z-50">
       {/* Logo */}
       <Link className="flex items-center justify-center" to="/">
-        <span className=" text-xl text-white font-playwrite">mỹ tứ</span>
+        <span className=" text-xl text-white font-playwrite max-sm:mt-16">
+          mỹ tứ
+        </span>
       </Link>
 
       {/* Desktop Menu */}
@@ -25,7 +27,7 @@ const Header = () => {
           <Button
             variant="ghost"
             size="icon"
-            className=" text-white bg-transparent"
+            className=" text-white bg-transparent max-sm:mt-16"
           >
             <Menu className="h-6 w-6 z-50" />
             <span className="sr-only">Toggle menu</span>
