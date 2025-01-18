@@ -13,7 +13,7 @@ const MainPage = () => {
             <img
               src="/images/1hong.png"
               alt="example"
-              className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] md:intersect:-motion-translate-y-in-100"
+              className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] intersect:-motion-translate-y-in-100"
             />
             <div className=" flex justify-between flex-col">
               <div></div>
@@ -34,7 +34,7 @@ const MainPage = () => {
             <img
               src="/images/1vang.png"
               alt=""
-              className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] md:intersect:motion-translate-y-in-100"
+              className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] intersect:motion-translate-y-in-100"
             />
           </div>
         </div>
