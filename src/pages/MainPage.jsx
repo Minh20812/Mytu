@@ -1,6 +1,32 @@
 import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const MainPage = () => {
+  const images4mua = [
+    {
+      src: "/images/spring.png",
+      alt: "Image 1",
+    },
+    {
+      src: "/images/summer.png",
+      alt: "Image 2",
+    },
+    {
+      src: "/images/fall.png",
+      alt: "Image 3",
+    },
+    {
+      src: "/images/winter.png",
+      alt: "Image 4",
+    },
+  ];
   return (
     <div className=" text-white bg-black">
       <section className="  flex justify-center items-center h-screen relative overflow-hidden flex-col">
@@ -97,7 +123,7 @@ const MainPage = () => {
           </div>
         </div>
 
-        <div className=" max-w-screen lg:gap-4 grid md:grid-cols-4 grid-cols-1 lg:p-10 p-4">
+        {/* <div className=" max-w-screen lg:gap-4 grid md:grid-cols-4 grid-cols-1 lg:p-10 p-4">
           <img
             src="/images/spring.png"
             alt=""
@@ -118,6 +144,35 @@ const MainPage = () => {
             alt=""
             className=" rounded-sm opacity-60 intersect:motion-preset-slide-up motion-delay-300"
           />
+        </div> */}
+
+        <div className="lg:p-10 p-4">
+          <Carousel className="w-full max-w-5xl mx-auto">
+            <CarouselContent className="-ml-1">
+              {images4mua.map((image, index) => (
+                <CarouselItem
+                  key={index}
+                  className="pl-1 basis-full md:basis-1/2 lg:basis-1/4"
+                >
+                  <div className="p-1 rounded-sm opacity-60 intersect:motion-preset-slide-up motion-delay-0">
+                    <Card>
+                      <CardContent className="flex aspect-[3/2] items-center justify-center p-0 bg-transparent  ">
+                        <img
+                          src={image.src || "/placeholder.svg"}
+                          alt={image.alt}
+                          width={600}
+                          height={400}
+                          className="object-cover"
+                        />
+                      </CardContent>
+                    </Card>
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className=" md:flex lg:hidden absolute left-0 opacity-50" />
+            <CarouselNext className=" md:flex lg:hidden absolute right-0 z-50 opacity-50" />
+          </Carousel>
         </div>
 
         <p className=" lg:p-10 p-4 font-montserrat intersect:motion-preset-slide-up motion-delay-500">

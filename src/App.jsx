@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Header />
       <Router />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
