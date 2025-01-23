@@ -6,8 +6,7 @@ Mỹ Tứ là một trang web giới thiệu về dự án bàn thờ cúng tổ
 
 - [Giới thiệu](#giới-thiệu)
 - [Công Nghệ Sử Dụng](#công-nghệ-sử-dụng)
-- [Hướng Dẫn Cài Đặt](#hướng-dẫn-cài-đặt)
-- [Chạy Dự Án](#chạy-dự-án)
+- [Cài Đặt](#cài-đặt)
 - [Hình Ảnh Dự Án](#hình-ảnh-dự-án)
 - [Liên Hệ](#liên-hệ)
 
@@ -32,10 +31,6 @@ Mỹ Tứ là một trang web giới thiệu về dự án bàn thờ cúng tổ
    ```bash
    npm run dev
    ```
-
-## Hướng Dẫn Sử Dụng
-- Truy cập vào `http://localhost:5173` để chơi game.
-- Tạo tài khoản hoặc đăng nhập để bắt đầu tham gia trò chơi.
 
 ## Hình Ảnh Dự Án
 ![Hình ảnh dự án](https://i.imgur.com/lr6osBx.png)
