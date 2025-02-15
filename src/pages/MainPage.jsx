@@ -40,37 +40,33 @@ const MainPage = () => {
 
         <div className=" flex gap-1 flex-col opacity-60  rotate-[-30deg] h-screen justify-center items-center">
           <div className=" flex gap-1 w-max ">
-            <a
+            <img
               // src="/images/1hong.png"
-              href="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634356/1hong_mdoj2n.png"         
-              rel="preload"
-              as="image"
+              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634356/1hong_mdoj2n.png"         
+              alt=""
               className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] intersect:-motion-translate-y-in-50 md:intersect:-motion-translate-y-in-100"
             />
             <div className=" flex justify-between flex-col">
               <div></div>
-              <a
+              <img
                 // src="/images/4mau.png"
-                href="https://res.cloudinary.com/djojfg2rr/image/upload/v1739635092/4mau_mhlkwe.jpg"
-                rel="preload"
-                as="image"
+                src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739635092/4mau_mhlkwe.jpg"
+                alt=""
                 className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px] intersect:motion-translate-x-in-100"
               />
             </div>
           </div>
 
           <div className=" flex gap-1 w-max">
-            <a
-              href="https://mir-s3-cdn-cf.behance.net/project_modules/2800/b704fa213992079.67508e54115b8.png"
-              rel="preload"
-              as="image"
+            <img
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/2800/b704fa213992079.67508e54115b8.png"
+              alt=""
               className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px] intersect:-motion-translate-x-in-100"
             />
-            <a
+            <img
               // src="/images/1vang.png"
-              href="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634359/1vang_pdqlno.png"
-              rel="preload"
-              as="image"
+              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634359/1vang_pdqlno.png"
+              alt=""
               className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] intersect:motion-translate-y-in-50 md:intersect:motion-translate-y-in-100"
             />
           </div>
