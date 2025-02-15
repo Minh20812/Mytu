@@ -11,19 +11,23 @@ import {
 const MainPage = () => {
   const images4mua = [
     {
-      src: "/images/spring.png",
+      // src: "/images/spring.png",
+      src: "https://res.cloudinary.com/djojfg2rr/image/upload/v1739634350/spring_naaz9e.png",
       alt: "Image 1",
     },
     {
-      src: "/images/summer.png",
+      // src: "/images/summer.png",
+      src: "https://res.cloudinary.com/djojfg2rr/image/upload/v1739634344/summer_r4qhlo.png",
       alt: "Image 2",
     },
     {
-      src: "/images/fall.png",
+      // src: "/images/fall.png",
+      src: "https://res.cloudinary.com/djojfg2rr/image/upload/v1739634348/fall_we5ea2.png",
       alt: "Image 3",
     },
     {
-      src: "/images/winter.png",
+      // src: "/images/winter.png",
+      src: "https://res.cloudinary.com/djojfg2rr/image/upload/v1739634339/winter_dzqry0.png",
       alt: "Image 4",
     },
   ];
@@ -37,14 +41,16 @@ const MainPage = () => {
         <div className=" flex gap-1 flex-col opacity-60  rotate-[-30deg] h-screen justify-center items-center">
           <div className=" flex gap-1 w-max ">
             <img
-              src="/images/1hong.png"
+              // src="/images/1hong.png"
+              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634356/1hong_mdoj2n.png"
               alt="example"
               className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] intersect:-motion-translate-y-in-50 md:intersect:-motion-translate-y-in-100"
             />
             <div className=" flex justify-between flex-col">
               <div></div>
               <img
-                src="/images/4mau.png"
+                // src="/images/4mau.png"
+                src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739635092/4mau_mhlkwe.jpg"
                 alt="example"
                 className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px] intersect:motion-translate-x-in-100"
               />
@@ -58,7 +64,8 @@ const MainPage = () => {
               className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px] intersect:-motion-translate-x-in-100"
             />
             <img
-              src="/images/1vang.png"
+              // src="/images/1vang.png"
+              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634359/1vang_pdqlno.png"
               alt=""
               className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] intersect:motion-translate-y-in-50 md:intersect:motion-translate-y-in-100"
             />
@@ -70,12 +77,14 @@ const MainPage = () => {
         <div className=" flex lg:gap-10 lg:p-10 p-4 max-md:flex-col lg:grid lg:grid-cols-3">
           <div className=" lg:col-span-1 flex flex-col justify-around">
             <img
-              src="/images/bc1.png"
+              // src="/images/bc1.png"
+              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634358/bc1_hgbdsv.png"
               alt=""
               className=" rounded-2xl opacity-60 p-2 my-4 intersect:motion-preset-slide-up motion-delay-0"
             />
             <img
-              src="/images/bc2.png"
+              // src="/images/bc2.png"
+              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634356/bc2_nqrrmd.png"
               alt=""
               className=" rounded-2xl opacity-60 p-2 my-4 intersect:motion-preset-slide-up motion-delay-75"
             />
@@ -111,12 +120,14 @@ const MainPage = () => {
 
           <div className="lg:col-span-1 flex flex-col justify-around">
             <img
-              src="/images/bc4.png"
+              // src="/images/bc4.png"
+              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634348/bc4_ivyyxx.png"
               alt=""
               className="rounded-2xl opacity-60 p-2 my-4 intersect:motion-preset-slide-up motion-delay-300"
             />
             <img
-              src="/images/bc3.png"
+              // src="/images/bc3.png"
+              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634351/bc3_ul07td.png"
               alt=""
               className="rounded-2xl opacity-60 p-2 my-4 intersect:motion-preset-slide-up motion-delay-500"
             />
@@ -193,7 +204,8 @@ const MainPage = () => {
           </h2>
 
           <img
-            src="/images/cunggiaothua.png"
+            // src="/images/cunggiaothua.png"
+            src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634361/cunggiaothua_iexnsz.png"
             alt="cungiaothua"
             className=" row-span-2 rounded-xl opacity-60 intersect:motion-preset-slide-left motion-delay-300"
           />
@@ -218,7 +230,8 @@ const MainPage = () => {
       <section className=" font-montserrat ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:grid-rows-2 lg:gap-10 lg:p-10 p-4">
           <img
-            src="/images/cungkhaitruong.png"
+            // src="/images/cungkhaitruong.png"
+            src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634807/43llVRl_y6irod.jpg"
             alt="cungkhaitruong"
             className=" row-span-2 rounded-xl opacity-60 max-sm:hidden intersect:motion-preset-slide-right motion-delay-0"
           />
@@ -229,7 +242,8 @@ const MainPage = () => {
           </h2>
 
           <img
-            src="/images/cungkhaitruong.png"
+            // src="/images/cungkhaitruong.png"
+            src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634807/43llVRl_y6irod.jpg"
             alt="cungkhaitruong"
             className=" row-span-2 rounded-xl opacity-60  md:hidden intersect:motion-preset-slide-right motion-delay-150"
           />
