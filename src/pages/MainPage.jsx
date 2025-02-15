@@ -40,37 +40,37 @@ const MainPage = () => {
 
         <div className=" flex gap-1 flex-col opacity-60  rotate-[-30deg] h-screen justify-center items-center">
           <div className=" flex gap-1 w-max ">
-            <img
+            <a
               // src="/images/1hong.png"
-              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634356/1hong_mdoj2n.png"
-              loading="lazy"
-              alt="example"
+              href="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634356/1hong_mdoj2n.png"         
+              rel="preload"
+              as="image"
               className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] intersect:-motion-translate-y-in-50 md:intersect:-motion-translate-y-in-100"
             />
             <div className=" flex justify-between flex-col">
               <div></div>
-              <img
+              <a
                 // src="/images/4mau.png"
-                src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739635092/4mau_mhlkwe.jpg"
-                loading="lazy"
-                alt="example"
+                href="https://res.cloudinary.com/djojfg2rr/image/upload/v1739635092/4mau_mhlkwe.jpg"
+                rel="preload"
+                as="image"
                 className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px] intersect:motion-translate-x-in-100"
               />
             </div>
           </div>
 
           <div className=" flex gap-1 w-max">
-            <img
-              src="https://mir-s3-cdn-cf.behance.net/project_modules/2800/b704fa213992079.67508e54115b8.png"
-              loading="lazy"
-              alt=""
+            <a
+              href="https://mir-s3-cdn-cf.behance.net/project_modules/2800/b704fa213992079.67508e54115b8.png"
+              rel="preload"
+              as="image"
               className=" h-48 w-80 lg:h-[384px] lg:w-[640px] rounded-sm border-[0.2px] intersect:-motion-translate-x-in-100"
             />
-            <img
+            <a
               // src="/images/1vang.png"
-              src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634359/1vang_pdqlno.png"
-              loading="lazy"
-              alt=""
+              href="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634359/1vang_pdqlno.png"
+              rel="preload"
+              as="image"
               className=" h-72 w-40 lg:h-[576px] lg:w-[320px] rounded-sm border-[0.2px] intersect:motion-translate-y-in-50 md:intersect:motion-translate-y-in-100"
             />
           </div>
@@ -83,14 +83,12 @@ const MainPage = () => {
             <img
               // src="/images/bc1.png"
               src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634358/bc1_hgbdsv.png"
-              loading="lazy"
               alt=""
               className=" rounded-2xl opacity-60 p-2 my-4 intersect:motion-preset-slide-up motion-delay-0"
             />
             <img
               // src="/images/bc2.png"
               src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634356/bc2_nqrrmd.png"
-              loading="lazy"
               alt=""
               className=" rounded-2xl opacity-60 p-2 my-4 intersect:motion-preset-slide-up motion-delay-75"
             />
@@ -128,14 +126,14 @@ const MainPage = () => {
             <img
               // src="/images/bc4.png"
               src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634348/bc4_ivyyxx.png"
-              loading="lazy"
+   
               alt=""
               className="rounded-2xl opacity-60 p-2 my-4 intersect:motion-preset-slide-up motion-delay-300"
             />
             <img
               // src="/images/bc3.png"
               src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634351/bc3_ul07td.png"
-              loading="lazy"
+        
               alt=""
               className="rounded-2xl opacity-60 p-2 my-4 intersect:motion-preset-slide-up motion-delay-500"
             />
@@ -178,7 +176,7 @@ const MainPage = () => {
                       <CardContent className="flex aspect-[3/2] items-center justify-center p-0 bg-transparent  ">
                         <img
                           src={image.src || "/placeholder.svg"}
-                          loading="lazy"
+             
                           alt={image.alt}
                           width={600}
                           height={400}
@@ -215,7 +213,7 @@ const MainPage = () => {
           <img
             // src="/images/cunggiaothua.png"
             src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634361/cunggiaothua_iexnsz.png"
-            loading="lazy"
+    
             alt="cungiaothua"
             className=" row-span-2 rounded-xl opacity-60 intersect:motion-preset-slide-left motion-delay-300"
           />
@@ -242,7 +240,7 @@ const MainPage = () => {
           <img
             // src="/images/cungkhaitruong.png"
             src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634807/43llVRl_y6irod.jpg"
-            loading="lazy"
+   
             alt="cungkhaitruong"
             className=" row-span-2 rounded-xl opacity-60 max-sm:hidden intersect:motion-preset-slide-right motion-delay-0"
           />
@@ -255,7 +253,7 @@ const MainPage = () => {
           <img
             // src="/images/cungkhaitruong.png"
             src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739634807/43llVRl_y6irod.jpg"
-            loading="lazy"
+   
             alt="cungkhaitruong"
             className=" row-span-2 rounded-xl opacity-60  md:hidden intersect:motion-preset-slide-right motion-delay-150"
           />
